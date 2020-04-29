@@ -11,8 +11,8 @@ section {
   background-color: white;
   color: black;
   padding: 40px;
-  height: 60%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
 }
 
 h1,
@@ -21,13 +21,25 @@ h2 {
   margin: 0;
 }
 
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+ul {
+    list-style: disc;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 40px;
+}
+
 h6 {
   font-size: 1rem;
 }
 
-h1 {
-  color: black;
-}
 p {
   font-size: 1rem;
 }

@@ -3,7 +3,6 @@ marp: true
 ---
 
 ### Content Delivery Network
-
-![w:350](http://assets.digitalocean.com/articles/CDN/without-CDN.png) ![w:350](http://assets.digitalocean.com/articles/CDN/CDN.png)
+![w:950](https://i.ibb.co/tx8yD8B/CDN-combined.png)
 
 (Image courtesy - Digital Ocean)

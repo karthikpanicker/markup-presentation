@@ -22,17 +22,13 @@ export default function Home({slides}) {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <main>
-                <div className={utilStyles.slideBorder}>
-                    <div className="slideContainer" dangerouslySetInnerHTML={{ __html: slideContent }} />
-                </div>
-                <Navigation initialSlide={currentPage} totalSlides={slides.length} notifyPageChange={onPageChange}/>
-            </main>
+            <div className={utilStyles.slideBorder}>
+                <div className="slideContainer" dangerouslySetInnerHTML={{__html: slideContent}}/>
+            </div>
+            <Navigation initialSlide={currentPage} totalSlides={slides.length} notifyPageChange={onPageChange}/>
 
-            <footer>
-            </footer>
             <style jsx>
-                {`.slideContainer {height: 24rem;}`}
+                {`.slideContainer {height: 100%; width:100%}`}
             </style>
         </Layout>
     );
