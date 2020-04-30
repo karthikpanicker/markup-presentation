@@ -22,7 +22,7 @@ export default function Home({slides}) {
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
 
-            <div className={utilStyles.slideBorder}>
+            <div className={`${utilStyles.slideBorder} shadow-2xl`}>
                 <div className="slideContainer" dangerouslySetInnerHTML={{__html: slideContent}}/>
             </div>
             <Navigation initialSlide={currentPage} totalSlides={slides.length} notifyPageChange={onPageChange}/>

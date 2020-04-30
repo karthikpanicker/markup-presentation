@@ -4,7 +4,6 @@ import React, {useState} from "react";
 
 export default function Navigation({initialSlide, totalSlides, notifyPageChange}) {
     const [currentPage, setCurrentPage] = useState(initialSlide);
-    console.log(totalSlides);
     const handlePageChange = (isIncrement) => {
         let newPage = currentPage;
         if (isIncrement && currentPage < totalSlides - 1) {
